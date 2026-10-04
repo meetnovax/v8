@@ -1,0 +1,25 @@
+NovaX V54 — Results/Hub Responsive Correction Batch
+
+Approved changes included:
+- Replaced active Builder Card background with the Founder-approved asset:
+  assets/Approved_Builder_Card_Background.png
+- Retired the prior Results Builder Card background from active Results use.
+- Preserved the prior asset as:
+  assets/legacy-quiz-profile-card-background.png
+  for the existing Quiz profile-card rendering; no asset was deleted.
+- Removed the floating Builder Archetype emoji from the on-page Builder Card.
+- Removed the extra CSS border around the Builder Card artwork so the approved
+  background controls the card's native visual frame.
+- Updated Builder Card canvas/share export to use the approved background and
+  removed the archetype emoji from exported card title rendering.
+- Kept the V53 15 strength-marker set in place as tentatively approved by the
+  Founder for V54; no marker artwork was regenerated or altered.
+- Corrected Results-page mobile header so the navigation fits inside narrow
+  phone viewports without clipping.
+- Corrected Results-page mobile hero background positioning so desktop-only
+  background copy does not bleed into the phone composition.
+- Applied the Hub title sizing correction for “Be the Hero of Your Future™”.
+- Corrected Hub mobile header sizing/overflow so it fits inside the viewport.
+
+No Quiz scoring, state keys, invite logic, path thresholds, or core journey
+behavior was intentionally changed.

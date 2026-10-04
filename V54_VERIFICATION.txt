@@ -1,0 +1,34 @@
+NovaX V54 Verification
+
+1. JavaScript syntax
+- results.html inline scripts: PASS
+- hub.html inline scripts: PASS
+- quiz.html inline scripts: PASS
+
+2. Builder Card background
+- Active Results Builder Card background: assets/Approved_Builder_Card_Background.png
+- Approved source: clean_corrected_rgb(1).png
+- Prior Results background removed from Results use.
+- Prior asset preserved as assets/legacy-quiz-profile-card-background.png.
+
+3. Strength markers
+- 15 tentatively approved V53 marker PNGs preserved unchanged.
+- Hero strength markers now use the same dynamic strength -> marker mapping.
+- Builder Card strength markers use the same mapping.
+- Export markers scaled to 80px on the 1080px card canvas, matching the small on-card visual intent more closely than the prior 42px export size.
+
+4. Mobile responsiveness
+- Results header uses a compact mobile-first layout with logo, Hub/About/FAQ links, and avatar fitting within narrow viewports.
+- Results hero mobile background is positioned to keep desktop-only background copy out of the phone composition.
+- Hub mobile header is compacted to fit the viewport.
+- Hub title uses the approved smaller clamp sizing.
+
+5. Builder Card presentation
+- Floating archetype emoji removed from the Results Builder Card.
+- Extra CSS border around Builder Card artwork removed; approved artwork supplies its own visual framing.
+- Builder Card export uses the approved background and no archetype emoji.
+
+6. Preservation
+- No Quiz scoring/state/invite/path threshold logic intentionally changed.
+- No landing page files intentionally changed.
+- No strength marker artwork regenerated or altered.
